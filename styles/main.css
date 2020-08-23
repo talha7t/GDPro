@@ -14,6 +14,10 @@ body {
   padding: 0 1rem;
 }
 
+.margin-sides {
+  margin: 0 2rem;
+}
+
 /*------------------------------------------------------------------
                             NAVBAR
 --------------------------------------------------------------------*/
@@ -67,4 +71,66 @@ nav a:hover {
 /*--------------------------------------------------------------------
                             Landing Page
 -----------------------------------------------------------------------*/
+#landing-page {
+  margin-top: 10vh;
+  min-height: 90vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+  overflow: hidden;
+}
+
+#landing-page .landingpage-heading-container {
+  position: relative;
+  min-height: 90vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#landing-page .landingpage-heading-container h1 {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 3.5rem;
+  line-height: 95px;
+}
+
+#landing-page .landingpage-heading-container .splashes {
+  position: absolute;
+}
+
+#landing-page .landingpage-heading-container .splashes.splash-red {
+  left: 0;
+  top: 0;
+  height: 30%;
+  z-index: -1;
+}
+
+#landing-page .landingpage-heading-container .splashes.splash-seagreen {
+  right: 0;
+  z-index: -1;
+  top: 10%;
+  height: 40%;
+}
+
+#landing-page .landingpage-heading-container .splashes.splash-purple {
+  bottom: 0;
+  z-index: -1;
+  -webkit-transform: translate(-50%, 50%);
+          transform: translate(-50%, 50%);
+}
 /*# sourceMappingURL=main.css.map */
