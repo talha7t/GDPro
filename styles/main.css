@@ -149,6 +149,9 @@ nav a:hover {
   #landing-page .landingpage-image-container {
     min-height: 90vh;
   }
+  #landing-page .landingpage-image-container img {
+    height: 70%;
+  }
   .splashes.splash-purple {
     height: 50%;
   }
