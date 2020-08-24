@@ -85,6 +85,12 @@ nav {
   }
 }
 
+@media only screen and (min-width: 1680px) {
+  #landing-page h1 {
+    font-size: 4.5rem;
+  }
+}
+
 @media only screen and (max-width: 1366px) {
   img.splashes.splash-seagreen {
     display: none;
