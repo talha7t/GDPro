@@ -144,7 +144,10 @@ nav a:hover {
     font-size: 3.5rem;
   }
   #landing-page h1 {
-    font-size: 4.5rem;
+    font-size: 5rem;
+  }
+  #landing-page .landingpage-image-container {
+    min-height: 90vh;
   }
   .splashes.splash-purple {
     height: 50%;

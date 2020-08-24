@@ -95,8 +95,13 @@ nav {
     }
   }
 
-  #landing-page h1 {
-    font-size: 4.5rem;
+  #landing-page {
+    h1 {
+      font-size: 5rem;
+    }
+    .landingpage-image-container {
+      min-height: 90vh;
+    }
   }
   .splashes.splash-purple {
     height: 50%;
