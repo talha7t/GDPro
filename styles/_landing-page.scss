@@ -100,12 +100,14 @@ nav {
       font-size: 6rem;
     }
     .landingpage-image-container {
+      position: relative;
       display: flex;
       justify-content: center;
       align-items: center;
       min-height: 90vh;
       img {
         height: 100%;
+        width: 100%;
       }
     }
   }
