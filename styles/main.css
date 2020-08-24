@@ -137,11 +137,17 @@ nav a:hover {
 }
 
 @media only screen and (min-width: 1680px) {
+  nav a {
+    font-size: 2rem;
+  }
+  nav a#logo {
+    font-size: 3rem;
+  }
   #landing-page h1 {
     font-size: 4.5rem;
   }
   .splashes.splash-purple {
-    height: 40%;
+    height: 50%;
   }
 }
 
