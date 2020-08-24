@@ -27,6 +27,7 @@ nav {
       font-weight: 800;
       font-size: 2rem;
       margin-right: auto;
+      transform: none;
     }
     &:hover {
       color: #fff;
@@ -85,7 +86,7 @@ nav {
 }
 
 @media only screen and (max-width: 1366px) {
-  .splash-seagreen {
+  img.splashes.splash-seagreen {
     display: none;
   }
 }
