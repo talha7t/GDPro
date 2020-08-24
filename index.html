@@ -8,6 +8,15 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800;900&family=Roboto:wght@400;700&display=swap"
       rel="stylesheet"
     />
+
+    <!-- BOOTSTRAP -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+
     <!-- Style sheets -->
     <link rel="stylesheet" href="styles/main.css" />
     <title>Document</title>
@@ -17,18 +26,29 @@
                             NAVABAR
        ----------------------------------------------------->
     <header>
-      <nav id="navbar" class="padding-sides">
-        <a href="#" id="logo">GDPro</a>
-        <span class="nav-items">
-          <a href="#" class="navbar-link">Home</a>
-          <a href="#" class="navbar-link">Tools</a>
-          <a href="#" class="navbar-link">Pricing</a>
-          <a href="#" class="navbar-link">Contact</a>
-        </span>
-        <div class="burgermenu-container">
-          <span class="burger-menu-item"></span>
-          <span class="burger-menu-item"></span>
-          <span class="burger-menu-item"></span>
+      <nav
+        id="navbar"
+        class="navbar navbar-expand-lg navbar-dark fixed-top padding-sides"
+      >
+        <a class="navbar-brand" id="logo" href="#">GDPRO</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ml-auto">
+            <a class="nav-link navbar-link ml-auto" href="#">Home</a>
+            <a class="nav-link navbar-link ml-auto" href="#">Tools</a>
+            <a class="nav-link navbar-link ml-auto" href="#">Pricing</a>
+            <a class="nav-link navbar-link ml-auto" href="#">Contact</a>
+          </div>
         </div>
       </nav>
     </header>
@@ -65,5 +85,17 @@
         />
       </div>
     </section>
+
+    <!-- BOOTSTRAP SCRIPTS-->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
