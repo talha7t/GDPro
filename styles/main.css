@@ -152,7 +152,7 @@ nav a:hover {
     position: relative;
     min-height: 90vh;
   }
-  #landing-page .landingpage-image-container img {
+  #landing-page .landingpage-image-container img.landingpage-illustration {
     height: 150%;
     display: none;
     width: 100%;
