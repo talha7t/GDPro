@@ -1,8 +1,11 @@
 #tools {
   min-height: 90vh;
+  margin-top: 10vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
+  background-color: #2b2727;
 }
 
 .tool-container {
@@ -28,5 +31,21 @@
   font-weight: 600;
   margin: 1rem 3rem;
   line-height: 28px;
-  word-break: keep-all;
+}
+
+.tool-splash-red {
+  bottom: 0;
+  right: 0;
+}
+
+.tool-splash-yellow {
+  top: 0;
+  right: 0;
+  height: 30%;
+}
+
+.tool-splash-purple {
+  top: 40%;
+  left: 0;
+  transform: translateX(-50%);
 }
