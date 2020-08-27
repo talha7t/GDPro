@@ -216,7 +216,6 @@ nav a:hover {
 }
 
 .tool-container {
-  margin-top: 10vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -232,6 +231,7 @@ nav a:hover {
 }
 
 .tool-image-container {
+  margin-top: 10vh;
   min-height: 35vh;
   margin: 2rem;
 }
