@@ -1,6 +1,6 @@
 #tools {
-  min-height: 90vh;
-  margin-top: 10vh;
+  min-height: 100vh;
+  margin-top: auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -9,7 +9,7 @@
 }
 
 .tool-container {
-  height: 100%;
+  margin-top: 10vh;
   display: flex;
   flex-direction: column;
   justify-content: space-around;

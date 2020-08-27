@@ -39,8 +39,7 @@ nav {
 -----------------------------------------------------------------------*/
 
 #landing-page {
-  margin-top: 10vh;
-  min-height: 90vh;
+  min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -49,6 +48,7 @@ nav {
   background-color: #2b2727;
   .landingpage-heading-container {
     position: relative;
+    margin-top: 10vh;
     min-height: 90vh;
     display: flex;
     justify-content: flex-start;
