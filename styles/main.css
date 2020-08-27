@@ -149,6 +149,9 @@ nav a:hover {
   nav a#logo {
     font-size: 3.5rem;
   }
+  .title-break {
+    display: none;
+  }
   #landing-page h1 {
     font-size: 6rem;
   }
