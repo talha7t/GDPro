@@ -100,7 +100,7 @@ nav a:hover {
 
 #landing-page .landingpage-heading-container {
   position: relative;
-  margin-top: 10vh;
+  padding-top: 10vh;
   min-height: 90vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -179,7 +179,7 @@ nav a:hover {
     display: block;
   }
   #landing-page .landingpage-heading-container h1 {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     line-height: 59px;
   }
   #landing-page .landingpage-heading-container .splash-red {
@@ -216,6 +216,7 @@ nav a:hover {
 }
 
 .tool-container {
+  margin-top: 10vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
