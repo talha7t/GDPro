@@ -149,9 +149,6 @@ nav a:hover {
   nav a#logo {
     font-size: 3.5rem;
   }
-  .title-break {
-    display: none;
-  }
   #landing-page h1 {
     font-size: 6rem;
   }
@@ -161,9 +158,6 @@ nav a:hover {
 }
 
 @media only screen and (max-width: 1340px) {
-  .title-break {
-    display: none;
-  }
   img.splashes.splash-seagreen {
     display: none;
   }
@@ -218,10 +212,10 @@ nav a:hover {
           align-items: center;
   position: relative;
   background-color: #2b2727;
+  padding-top: 10vh;
 }
 
 .tool-container {
-  margin-top: 10vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
