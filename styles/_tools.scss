@@ -1,0 +1,32 @@
+#tools {
+  min-height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tool-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.tool-image-container {
+  min-height: 35vh;
+  margin: 2rem;
+}
+
+.tool-title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  line-height: 50px;
+}
+
+.tool-description {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin: 1rem 3rem;
+  line-height: 28px;
+  word-break: keep-all;
+}

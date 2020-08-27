@@ -10,6 +10,7 @@
 body {
   background-color: #252323;
   font-family: "Roboto", sans-serif;
+  color: #fff;
 }
 
 .padding-sides {
@@ -20,4 +21,11 @@ body {
   margin: 0 2rem;
 }
 
+@media only screen and (max-width: 768px) {
+  .margin-sides {
+    margin: 0 1rem;
+  }
+}
+
 @import "landing-page";
+@import "tools";
