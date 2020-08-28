@@ -271,6 +271,9 @@ nav a:hover {
     display: block;
     min-height: 180vh;
   }
+  .tool-container {
+    min-height: 90vh;
+  }
   .tool-image-container {
     min-height: 25vh;
   }
