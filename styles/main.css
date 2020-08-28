@@ -250,12 +250,14 @@ nav a:hover {
 .tool-splash-red {
   bottom: 0;
   right: 0;
+  z-index: 1;
 }
 
 .tool-splash-yellow {
   top: 0;
   right: 0;
   height: 30%;
+  z-index: 1;
 }
 
 .tool-splash-purple {
@@ -263,6 +265,7 @@ nav a:hover {
   left: 0;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
+  z-index: 1;
 }
 
 @media only screen and (max-width: 768px) {
