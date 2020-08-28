@@ -13,6 +13,7 @@
   justify-content: space-around;
   align-items: center;
   background-color: #2b2727;
+  margin-top: 10vh;
 }
 .tool-image-container {
   min-height: 35vh;
@@ -61,10 +62,6 @@
   }
   .tool-container {
     min-height: 50%;
-    display: inline-flex;
-  }
-  .tool-image-container {
-    min-height: 20vh;
   }
   .tool-title {
     font-size: 1.5rem;
@@ -75,7 +72,7 @@
   .tool-description {
     font-size: 1.1rem;
     font-weight: 600;
-    margin: 1rem 3rem;
+    margin: 1rem 2rem;
     line-height: 28px;
   }
 
