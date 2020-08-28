@@ -210,11 +210,9 @@ nav a:hover {
           align-items: center;
   position: relative;
   background-color: #2b2727;
-  padding-top: 10vh;
 }
 
 .tool-container {
-  margin-top: 10vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -227,6 +225,7 @@ nav a:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  background-color: #2b2727;
 }
 
 .tool-image-container {
@@ -272,9 +271,15 @@ nav a:hover {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    min-height: 180vh;
   }
   .tool-container {
-    min-height: 90vh;
+    min-height: 50%;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
   }
   .tool-image-container {
     min-height: 20vh;

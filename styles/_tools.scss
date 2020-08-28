@@ -5,15 +5,14 @@
   align-items: center;
   position: relative;
   background-color: #2b2727;
-  padding-top: 10vh;
 }
 
 .tool-container {
-  margin-top: 10vh;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  background-color: #2b2727;
 }
 .tool-image-container {
   min-height: 35vh;
@@ -54,9 +53,12 @@
 @media only screen and (max-width: 768px) {
   #tools {
     flex-direction: column;
+    justify-content: space-around;
+    min-height: 180vh;
   }
   .tool-container {
-    min-height: 90vh;
+    min-height: 50%;
+    display: inline-flex;
   }
   .tool-image-container {
     min-height: 20vh;
