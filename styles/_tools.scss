@@ -36,21 +36,21 @@
 .tool-splash-red {
   bottom: 0;
   right: 0;
-  z-index: 1;
+  z-index: 0;
 }
 
 .tool-splash-yellow {
   top: 0;
   right: 0;
   height: 30%;
-  z-index: 1;
+  z-index: 0;
 }
 
 .tool-splash-purple {
   top: 40%;
   left: 0;
   transform: translateX(-50%);
-  z-index: 1;
+  z-index: 0;
 }
 
 @media only screen and (max-width: 768px) {
@@ -77,5 +77,18 @@
     font-weight: 600;
     margin: 1rem 3rem;
     line-height: 28px;
+  }
+
+  .tool-splash-red {
+    height: 10%;
+  }
+
+  .tool-splash-yellow {
+    height: 15%;
+  }
+
+  .tool-splash-purple,
+  .line-break {
+    display: none;
   }
 }
