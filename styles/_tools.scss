@@ -53,15 +53,13 @@
 
 @media only screen and (max-width: 768px) {
   #tools {
-    display: block;
-    min-height: 180vh;
-    // align-items: flex-start;
+    flex-direction: column;
   }
   .tool-container {
     min-height: 90vh;
   }
   .tool-image-container {
-    min-height: 25vh;
+    min-height: 20vh;
   }
   .tool-title {
     font-size: 1.5rem;
