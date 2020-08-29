@@ -232,6 +232,8 @@ nav a:hover {
 .tool-image-container {
   min-height: 35vh;
   margin: 2rem;
+  position: relative;
+  z-index: 2;
 }
 
 .tool-title {
@@ -239,6 +241,8 @@ nav a:hover {
   font-size: 2.5rem;
   font-weight: 800;
   line-height: 50px;
+  position: relative;
+  z-index: 2;
 }
 
 .tool-description {
@@ -246,6 +250,8 @@ nav a:hover {
   font-weight: 600;
   margin: 1rem 3rem;
   line-height: 28px;
+  position: relative;
+  z-index: 2;
 }
 
 .tool-splash-red {
