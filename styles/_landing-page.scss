@@ -39,13 +39,11 @@ nav {
 -----------------------------------------------------------------------*/
 
 #landing-page {
-  min-height: 100vh;
-  display: flex;
   align-items: center;
   justify-content: space-between;
   position: relative;
   overflow: hidden;
-  background-color: #2b2727;
+
   .landingpage-heading-container {
     position: relative;
     padding-top: 10vh;

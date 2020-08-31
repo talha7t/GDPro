@@ -27,6 +27,13 @@ body {
   z-index: -1;
 }
 
+.panel {
+  background-color: #2b2727;
+  min-height: 90vh;
+  display: flex;
+  margin-top: 10vh;
+}
+
 @media only screen and (max-width: 768px) {
   .margin-sides {
     margin: 0 1rem;
@@ -35,3 +42,4 @@ body {
 
 @import "landing-page";
 @import "tools";
+@import "pricing-page";
